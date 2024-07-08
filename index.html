@@ -3,29 +3,24 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" href="social-media-icon-illustration-facebook-facebook-icon-vector-illustration_561158-2134.avif">
    <link rel="stylesheet" href="style.css">
-   <title>Log in to Facebook</title>
+   <title>Weather App</title>
 </head>
 <body>
-   <div class="form-style" >
-      <h1>facebook</h1>
-   <div class="container">
-      <form action="">
-         <h2>Log in to Facebook</h2>
-         <div class="form-group">
-            <label for="">User Name:</label>
-            <input type="text" placeholder="Enter email address or phone number">
-         </div>
-         <div class="form-group">
-            <label for="">Password:</label>
-            <input type="password" placeholder="password">
-         </div>
-         <button>Login</button>
-         <p><a href="#">Forget account?</a>/<a href="#">Signup for Facebook</a></p>
-      </form>
+   <form class="weatherForm" action="">
+      <input type="text" class="cityInput" placeholder="Enter City">
+      <button type="submit">Get Weather</button>
+   </form>
+   <div class="card" style="display: none;">
+     <!--<h1 class="cityDisplay">Miami</h1>
+      <p class="tempDisplay">90°F</p>
+      <p class="humidityDisplay">Humifity: 75%</p>
+      <p class="descDisplay">Clear Skies</p>
+      <p class="weatherEmoji">☀</p>
+      <p class="errorDisplay">Please enter a city</p>--> 
    </div>
-   </div>
-  
+
+
+   <script src="app.js"></script>
 </body>
 </html>
